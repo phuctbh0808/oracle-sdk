@@ -131,7 +131,7 @@ export class ProductClient {
     const priceKey = this.pda.price(this.productKey);
     const publisherKey = this.pda.publisher(authorityPublisher, this.productKey);
 
-    // check role
+    // check publisher role
     await this.getPublisher(authorityPublisher);
 
     const tx = (
