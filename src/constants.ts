@@ -9,3 +9,5 @@ export const REVND_TESTNET = new anchor.web3.PublicKey(
 export const REUSD_TESTNET = new anchor.web3.PublicKey(
   "HKsJuy7nr8jP1LfUng1FuauMLrCsb5TooR7VNxjEygtP"
 );
+
+export const VERSION = 1;
